@@ -11,7 +11,7 @@ Analisis dilakukan menggunakan Python untuk memahami karakteristik data aplikasi
 
 - **Nama:** Farlina Aprilianti
 - **NIM:** 2410010266
-- **Mata Kuliah:** Statistika
+- **Mata Kuliah:** Statistik dan Probabilitas
 
 ## Dataset
 
