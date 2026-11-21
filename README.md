@@ -77,6 +77,48 @@ Beberapa hipotesis yang akan diuji pada tahap berikutnya:
 2. Perbedaan rata-rata Rating antara aplikasi gratis dan berbayar.
 3. Hubungan antara Rating dan Installs.
 
+## Milestone 2 - Hypothesis Testing
+
+Pada Milestone 2 dilakukan pengujian statistik menggunakan
+dataset Google Play Store untuk mengetahui hubungan dan
+perbedaan antarvariabel.
+
+### 1. Confidence Interval
+Menghitung Confidence Interval 95% untuk rata-rata
+Rating aplikasi yang valid.
+
+### 2. Hypothesis Testing
+
+**Hipotesis 1: Reviews dan Installs**
+- Metode: Pearson Correlation
+- Tujuan: Menguji hubungan jumlah ulasan dan instalasi aplikasi.
+
+**Hipotesis 2: Rating aplikasi gratis dan berbayar**
+- Metode: Welch's Independent Samples t-test
+- Tujuan: Menguji perbedaan rata-rata rating kedua kelompok.
+
+**Hipotesis 3: Rating dan Installs**
+- Metode: Pearson Correlation
+- Tujuan: Menguji hubungan rating dan jumlah instalasi.
+
+### 3. Evaluasi Statistik
+Analisis mencakup:
+- Confidence Interval 95%
+- Pengujian asumsi
+- Statistik uji dan p-value
+- Effect size
+- Kesimpulan statistik dan interpretasi bisnis
+
+### 4. Tools
+- Python
+- Pandas
+- NumPy
+- SciPy
+- Matplotlib
+- Google Colab
+
 ## Penutup
 
 Melalui proyek ini, dilakukan eksplorasi data untuk memperoleh pemahaman mengenai karakteristik aplikasi Google Play Store. Hasil analisis diharapkan dapat menjadi dasar untuk pengujian hipotesis pada Milestone 2.
+
+
