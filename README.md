@@ -117,6 +117,43 @@ Analisis mencakup:
 - Matplotlib
 - Google Colab
 
+## Milestone 3 - Sampling Distribution, Bootstrap, and Power Analysis
+
+Milestone 3 berfokus pada analisis distribusi sampling,
+perbandingan Confidence Interval, dan Power Analysis
+menggunakan dataset Google Play Store.
+
+### 1. Sampling Distribution
+Menganalisis distribusi rata-rata Rating dengan ukuran sampel:
+- 30
+- 300
+- 3000
+
+Membandingkan Standard Error empiris dan teoritis.
+
+### 2. Confidence Interval: Rumus vs Bootstrap
+Membandingkan CI 95% selisih rata-rata Rating aplikasi
+Free dan Paid menggunakan metode Welch dan Bootstrap.
+
+### 3. Power Analysis
+Menentukan kebutuhan ukuran sampel berdasarkan:
+- MDE: 0.1 poin Rating
+- Alpha: 0.05
+- Statistical Power: 0.80
+
+### 4. Rekomendasi Ship or Not
+Menentukan rekomendasi berdasarkan posisi CI terhadap
+nilai 0 dan batas MDE.
+
+### 5. Tools
+- Python
+- Pandas
+- NumPy
+- SciPy
+- Matplotlib
+- Statsmodels
+- Google Colab
+
 ## Penutup
 
 Melalui proyek ini, dilakukan eksplorasi data untuk memperoleh pemahaman mengenai karakteristik aplikasi Google Play Store. Hasil analisis diharapkan dapat menjadi dasar untuk pengujian hipotesis pada Milestone 2.
